@@ -1,5 +1,5 @@
 import tensorflow as tf
-from tensorflow import set_random_seed
+from tensorflow.compat.v1 import set_random_seed
 from fin_data import data_generator
 from keras.models import Sequential
 from keras.layers.merge import Add
